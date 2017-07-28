@@ -19,7 +19,13 @@ Utilize article to:
 * Add a knex command to "scripts" within package.json
 
 ## Create a Migration
-Create a migration file for a table named "cities.""
+Create a migration file for a table named "cities."
+```
+npm run knex migrate:make states
+```
+
+You should see something like this:
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/615/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.00.24_AM.png)
 
 The cities table should have the following columns:
 * id
@@ -34,8 +40,7 @@ npm run knex migrate:latest
 ```
 
 If successful, you should see something like this:
-![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/615/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.00.24_AM.png)
-
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/616/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.05.16_AM.png)
 
 Also run this command to view information about the created table:
 ```
