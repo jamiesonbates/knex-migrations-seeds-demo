@@ -72,7 +72,7 @@ const cities = [
   },
   {
     name: 'Bellingham',
-    state: 'Washington'.
+    state: 'Washington',
     population: 87574
   }
 ]
