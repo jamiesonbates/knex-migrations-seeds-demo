@@ -57,6 +57,9 @@ Create the seed file:
 npm run knex seed:make 1_cities
 ```
 
+You should see something like this:
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/628/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.16.54_AM.png)
+
 Next, utilize the following data to build out your seed file:
 ```javascript
 const cities = [
@@ -84,7 +87,7 @@ npm run knex seed:run
 ```
 
 You should see something like this:
-![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/623/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.00.24_AM.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/629/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.27.38_AM.png)
 
 
 Also, run the following command to see the contents of your database:
@@ -93,4 +96,4 @@ psql cities_dev -c 'SELECT * FROM cities';
 ```
 
 You should see something like this:
-![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/624/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.00.24_AM.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/630/asdfasdfasdfsadf.png)
