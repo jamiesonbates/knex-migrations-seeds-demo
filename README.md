@@ -40,7 +40,7 @@ npm run knex migrate:latest
 ```
 
 If successful, you should see something like this:
-![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/616/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.05.16_AM.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/631/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.23.14_AM.png)
 
 Also run this command to view information about the created table:
 ```
