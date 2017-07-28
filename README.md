@@ -5,7 +5,7 @@
 Clone repo:
 ```
 git clone https://github.com/jamiesonbates/knex-migrations-seeds-demo.git
-npm init -y
+npm install
 ```
 
 Setup DB:
