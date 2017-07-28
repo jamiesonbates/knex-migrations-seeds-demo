@@ -27,12 +27,19 @@ npm run knex migrate:make cities
 You should see something like this:
 ![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/627/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.24.20_AM.png)
 
-The cities table should have the following columns:
-* id
-* name
-* state
-* population
-* timestamps
+Translate the following entity relationship diagram into a Knex migration file.
+```text
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│                                          books                                           │
+├─────────────┬─────────────────────────┬──────────────────────────────────────────────────┤
+│id           │serial                   │primary key                                       │
+│name         │varchar(255)             │not null default ''                               │
+│state        │varchar(255)             │not null default ''                               │
+│population   │integer                  │                                                  │
+│created_at   │timestamp with time zone │not null default now()                            │
+│updated_at   │timestamp with time zone │not null default now()                            │
+└─────────────┴─────────────────────────┴──────────────────────────────────────────────────┘
+```
 
 When you have built a migration file, use the following command to migrate the database:
 ```
