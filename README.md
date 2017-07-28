@@ -52,6 +52,12 @@ This command should result in something like this:
 ## Create a Seeds
 Use the following data to create a seed for the table named "cities."
 
+Create the seed file:
+```
+npm run knex seed:make 1_states
+```
+
+Next, utilize the following data to build out your seed file:
 ```javascript
 const cities = [
   {
@@ -70,4 +76,17 @@ const cities = [
     population: 87574
   }
 ]
+```
+
+When you're read to seed your database, run the following command:
+```
+npm run knex seed:run
+```
+
+You should see something like this:
+
+
+Also, run the following command to see the contents of your database:
+```
+psql states_dev -c 'SELECT * FROM cities';
 ```
