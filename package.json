@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/jamiesonbates/knex-migrations-seeds-demo/issues"
   },
-  "homepage": "https://github.com/jamiesonbates/knex-migrations-seeds-demo#readme"
+  "homepage": "https://github.com/jamiesonbates/knex-migrations-seeds-demo#readme",
+  "dependencies": {
+    "knex": "^0.13.0",
+    "pg": "^7.0.2"
+  }
 }
