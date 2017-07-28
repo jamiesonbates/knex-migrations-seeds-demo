@@ -14,7 +14,7 @@ createdb cities_dev
 ```
 
 ## Configure knexfile && knex commands
-Utilize article to:
+Utilize [reading/article](https://learn.galvanize.com/cohorts/180/units/2802/content_files/33132) to:
 * Configure knexfile.js so that you can connect to your database.
 * Add a knex command to "scripts" within package.json
 
