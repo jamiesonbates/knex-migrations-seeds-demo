@@ -10,7 +10,7 @@ npm init -y
 
 Setup DB:
 ```
-createdb states_dev
+createdb cities_dev
 ```
 
 ## Configure knexfile && knex commands
@@ -21,7 +21,7 @@ Utilize article to:
 ## Create a Migration
 Create a migration file for a table named "cities."
 ```
-npm run knex migrate:make states
+npm run knex migrate:make cities
 ```
 
 You should see something like this:
@@ -44,7 +44,7 @@ If successful, you should see something like this:
 
 Also run this command to view information about the created table:
 ```
-psql states_dev -c '\d states'
+psql cities_dev -c '\d cities'
 ```
 This command should result in something like this:
 ![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/617/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.00.24_AM.png)
@@ -54,7 +54,7 @@ Use the following data to create a seed for the table named "cities."
 
 Create the seed file:
 ```
-npm run knex seed:make 1_states
+npm run knex seed:make 1_cities
 ```
 
 Next, utilize the following data to build out your seed file:
@@ -84,9 +84,10 @@ npm run knex seed:run
 ```
 
 You should see something like this:
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/618/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.00.24_AM.png)
 
 
 Also, run the following command to see the contents of your database:
 ```
-psql states_dev -c 'SELECT * FROM cities';
+psql cities_dev -c 'SELECT * FROM cities';
 ```
