@@ -47,7 +47,7 @@ Also run this command to view information about the created table:
 psql cities_dev -c '\d cities'
 ```
 This command should result in something like this:
-![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/625/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.00.24_AM.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/626/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.25.10_AM.png)
 
 ## Create a Seeds
 Use the following data to create a seed for the table named "cities."
