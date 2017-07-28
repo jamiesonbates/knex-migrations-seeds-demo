@@ -34,7 +34,7 @@ The cities table should have the following columns:
 * population
 * timestamps
 
-When you have created a migration file, use the following command to check your work:
+When you have built a migration file, use the following command to migrate the database:
 ```
 npm run knex migrate:latest
 ```
