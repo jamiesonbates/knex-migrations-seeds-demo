@@ -46,8 +46,8 @@ Also run this command to view information about the created table:
 ```
 psql states_dev -c '\d states'
 ```
-
-You should be able to view details about the table you just created with a migration.
+This command should result in something like this:
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/617/1._fish__-Users-jamiesonbates-Projects-g56-lectures-knex-migrations-seeds-demo__fish__iTerm2__Today_at_8.00.24_AM.png)
 
 ## Create a Seeds
 Use the following data to create a seed for the table named "cities."
