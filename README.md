@@ -30,7 +30,7 @@ You should see something like this:
 Translate the following entity relationship diagram into a Knex migration file.
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                                          books                                           │
+│                                          cities                                           │
 ├─────────────┬─────────────────────────┬──────────────────────────────────────────────────┤
 │id           │serial                   │primary key                                       │
 │name         │varchar(255)             │not null default ''                               │
